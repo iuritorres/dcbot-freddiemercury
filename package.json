@@ -1,0 +1,25 @@
+{
+  "name": "dcbot-freddiemercury",
+  "version": "1.0.0",
+  "description": "bot discord",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuritorres/dcbot-freddiemercury.git"
+  },
+  "author": "Iuri Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuritorres/dcbot-freddiemercury/issues"
+  },
+  "homepage": "https://github.com/iuritorres/dcbot-freddiemercury#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
