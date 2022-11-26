@@ -7,7 +7,6 @@ module.exports = {
 
     async execute(interaction) {
         const message = await interaction.reply({ content: `Esse é o server ${interaction.guild.name} e tem ${interaction.guild.memberCount} membros.`, fetchReply: true});
-        message.react('👍').then(() => message.react('👎'));
-
+        await message.react('👍').then(() => message.react('👎'));
     },    
 };

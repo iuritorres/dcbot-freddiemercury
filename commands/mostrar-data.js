@@ -3,7 +3,7 @@ const wait = require('node:timers/promises').setTimeout;
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('mostrardata')
+        .setName('mostrar-data')
         .setDescription('Mostra a hora atual.'),
 
     async execute(interaction) {

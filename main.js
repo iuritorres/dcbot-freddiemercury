@@ -1,7 +1,7 @@
 // Require the necessary discord.js classes
 const fs = require('node:fs');
 const path = require('node:path');
-const { Client, GatewayIntentBits, Collection } = require('discord.js');
+const { Client, GatewayIntentBits, Collection, ClientPresence } = require('discord.js');
 const { token } = require('./config.json');
 
 
@@ -9,6 +9,10 @@ const { token } = require('./config.json');
 const client = new Client({
     intents: [GatewayIntentBits.Guilds]
 });
+
+module.exports = {
+    client: client
+}
 
 
 // Events Filter
